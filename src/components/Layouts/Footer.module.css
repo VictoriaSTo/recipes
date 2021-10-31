@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: white;
+  background-image: url(../../assets/wood.jpg);
+  border: 1px dashed #193211;
+  padding: 2%;
+  margin-top: 80px;
+  box-shadow: 8px 8px 12px 4px black;
+  width: 100%;
+}
+
+.grid-item li{
+  padding-top: 6px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.footer-list a:hover {
+  text-decoration: none;
+  color: #64a84d;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.grid-container h5 {
+  color: white;
+  font-weight: 200;
+}
