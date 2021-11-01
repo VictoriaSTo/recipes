@@ -1,4 +1,6 @@
 import React from "react";
+import { Route, Redirect } from 'react-router-dom';
+
 import Header from "./components/Layouts/Header";
 import Footer from "./components/Layouts/Footer";
 import Homepage from "./pages/Homepage";
@@ -8,8 +10,17 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Homepage />
-      {/* <Faqpage /> */}
+      <main>
+        <Route path='/' exact>
+          <Redirect to='/recipes' />
+        </Route>
+        <Route path='/recipes' exact>
+          <Homepage />
+        </Route>
+        <Route path='/faq' exact>
+          <Faqpage />
+        </Route>
+      </main>
       <Footer />
     </React.Fragment>
   );

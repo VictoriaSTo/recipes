@@ -1,6 +1,6 @@
 import classes from "./Header.module.css";
 import tree from "../../assets/tree.png";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React from 'react';
 import { FaFacebook, FaTwitter } from 'react-icons/fa';
 
@@ -13,14 +13,14 @@ const Header = (props) => {
         <img src={tree} className={classes.logo} alt='logo' />
           <ul>
             <li>
-              {/* <NavLink exact to="/recipes" activeClassName={classes.active}>
+              <NavLink exact to="/recipes" activeClassName={classes.active}>
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink to="faq" activeClassName={classes.active}>
                 FAQ
-              </NavLink> */}
+              </NavLink>
             </li>
           </ul>
           <div className={classes.icon}>

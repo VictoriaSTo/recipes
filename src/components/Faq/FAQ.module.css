@@ -1,6 +1,5 @@
 .faq-main {
   min-height: 100vh;
-  /* using flex because of better browser support */
   display: flex;
   justify-content: center;
   align-items: center;

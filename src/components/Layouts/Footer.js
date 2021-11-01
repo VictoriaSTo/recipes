@@ -9,8 +9,8 @@ const Footer = () => {
       <div className={classes['grid-item']}>
         <ul className={classes["footer-list"]}>
         <h5>Menu</h5>
-          {/* <li><Link to="/recipes">Homepage</Link></li>
-          <li><Link to="/faq">FAQs</Link></li> */}
+          <li><Link to="/recipes">Homepage</Link></li>
+          <li><Link to="/faq">FAQs</Link></li>
         </ul>
       </div>
       <div className={classes['grid-item']}>
