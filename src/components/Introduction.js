@@ -9,8 +9,8 @@ const Introduction = () => {
         <img src={cherry} className={classes["banner"]} alt="cherries"/>
       </div>
       <div className={classes['flex-item']}>
-        <h6 className={classes["hero-text"]}>Quick and Healthy Recipes</h6>
-        <h4>Cooking at home doesn’t have to be complicated.  In fact, simple meals are often the tastiest.</h4>
+        <h1 className={classes["hero-text"]}>Quick and Healthy Recipes</h1>
+        <h3>Cooking at home doesn’t have to be complicated.  In fact, simple meals are often the tastiest.</h3>
       </div>
     </div>
   )

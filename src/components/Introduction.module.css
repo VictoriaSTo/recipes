@@ -1,4 +1,5 @@
 
+@media screen and (min-width: 969px) {
 .flex-container-banner {
     display: flex;
   }
@@ -8,30 +9,35 @@
     text-align: right;
     padding-top: 10%;;
     padding-right: 5%;
+    color: #183311;
   }
 
   .banner {
   height: 90vh;
-  width: 100%;
   object-fit: cover;
   box-shadow: 4px 4px 8px gray;
   }
 
-  .flex-item h4 {
-    padding-left: 5%;
+  .flex-item h3 {
+    padding-left: 10%;
     padding-top: 5%;
+    padding-right: 5%;
+    text-align: right;
+    color: #333333;
   }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .flex-container-banner {
     display: block;
   }
 
   .hero-text {
-    font-size: 2rem;
-    text-align: right;
+    font-size: 2.8rem !important;
+    text-align: center;
     padding-top: 10%;;
     padding-right: 5%;
+    color: #183311;
   }
 
   .banner {
@@ -41,8 +47,10 @@
   box-shadow: 4px 4px 8px gray;
   }
 
-  .flex-item h4 {
+  .flex-item h3 {
     padding-left: 5%;
     padding-top: 5%;
+    color: #333333;
+    font-size: 1.4rem !important;
   }
 }

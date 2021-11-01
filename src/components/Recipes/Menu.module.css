@@ -84,7 +84,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem !important;
 }
 h3 {
   font-size: 1.25rem;
@@ -163,7 +163,8 @@ Menu
 .filter-btn {
   background: transparent;
   border-color: transparent;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
@@ -172,6 +173,7 @@ Menu
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 .filter-btn:hover {
   background: #183311;
