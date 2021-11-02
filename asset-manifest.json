@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/recipes/static/css/main.7ae129d3.chunk.css",
+    "main.js": "/recipes/static/js/main.cabcd747.chunk.js",
+    "main.js.map": "/recipes/static/js/main.cabcd747.chunk.js.map",
+    "runtime-main.js": "/recipes/static/js/runtime-main.00633de1.js",
+    "runtime-main.js.map": "/recipes/static/js/runtime-main.00633de1.js.map",
+    "static/js/2.2c94dfe8.chunk.js": "/recipes/static/js/2.2c94dfe8.chunk.js",
+    "static/js/2.2c94dfe8.chunk.js.map": "/recipes/static/js/2.2c94dfe8.chunk.js.map",
+    "index.html": "/recipes/index.html",
+    "static/css/main.7ae129d3.chunk.css.map": "/recipes/static/css/main.7ae129d3.chunk.css.map",
+    "static/js/2.2c94dfe8.chunk.js.LICENSE.txt": "/recipes/static/js/2.2c94dfe8.chunk.js.LICENSE.txt",
+    "static/media/avocado.731bf727.jpg": "/recipes/static/media/avocado.731bf727.jpg",
+    "static/media/cafe.f3df5890.jpg": "/recipes/static/media/cafe.f3df5890.jpg",
+    "static/media/cherry.a996ff4d.jpg": "/recipes/static/media/cherry.a996ff4d.jpg",
+    "static/media/community.241375c0.jpg": "/recipes/static/media/community.241375c0.jpg",
+    "static/media/tree.88028c29.png": "/recipes/static/media/tree.88028c29.png",
+    "static/media/Footer.module.css": "/recipes/static/media/wood.8d295cd8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00633de1.js",
+    "static/js/2.2c94dfe8.chunk.js",
+    "static/css/main.7ae129d3.chunk.css",
+    "static/js/main.cabcd747.chunk.js"
+  ]
+}
