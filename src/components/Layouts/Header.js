@@ -13,12 +13,12 @@ const Header = (props) => {
         <img src={tree} className={classes.logo} alt='logo' />
           <ul>
             <li>
-              <NavLink exact to="/recipes" activeClassName={classes.active}>
+              <NavLink to="/recipes" activeClassName={classes.active}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/faq" activeClassName={classes.active}>
+              <NavLink to="/faq" activeClassName={classes.active}>
                 FAQ
               </NavLink>
             </li>
