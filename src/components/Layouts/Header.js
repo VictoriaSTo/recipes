@@ -18,7 +18,7 @@ const Header = (props) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="faq" activeClassName={classes.active}>
+              <NavLink exact to="/faq" activeClassName={classes.active}>
                 FAQ
               </NavLink>
             </li>
